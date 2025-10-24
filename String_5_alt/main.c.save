@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<string.h>
+
+int main()
+{   char str1[30] = "Bangla";
+    char str2[] = "desh";
+    strcat(str1,str2);
+    
+    printf("%s\n",str1);
+    
+    //char country[] = {'B' , 'a','n','g','l','a','d','e','s','h','\0'};
+
+    //printf("%s",country);
+
+    return 0;
+}
